@@ -25,7 +25,7 @@ st.markdown('## Desenvolvedora\n'
 # Leitura do CSV
 @st.cache
 def load_data():
-    return pd.read_csv(r'C:\Users\brenda.lima\Desktop\IC2024\_Testando__202409072135.csv', sep=';', nrows=600)
+    return pd.read_csv(r'_Testando__202409072135.csv', sep=';', nrows=600)
 
 df = load_data()
 
@@ -147,7 +147,7 @@ if chart_type == 'Gráfico de Dispersão':
 #######
 
 # Carregar o CSV
-csv_path = "C:/Users/brenda.lima/Downloads/Dicionario.csv"
+csv_path = "Dicionario.csv"
 df = pd.read_csv(csv_path)
 
 # Função para exibir os dados da nova aba
